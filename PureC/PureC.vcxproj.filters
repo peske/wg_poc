@@ -18,12 +18,18 @@
     <ClCompile Include="blake2s-ref.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="blake2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="blake2-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
