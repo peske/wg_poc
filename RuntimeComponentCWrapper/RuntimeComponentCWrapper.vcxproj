@@ -107,6 +107,7 @@
     <ClInclude Include="TestCWrapper.h">
       <DependentUpon>TestCWrapper.idl</DependentUpon>
     </ClInclude>
+    <ClInclude Include="TestCWrapperStatic.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -116,9 +117,11 @@
       <DependentUpon>TestCWrapper.idl</DependentUpon>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="TestCWrapperStatic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="TestCWrapper.idl" />
+    <Midl Include="TestCWrapperStatic.idl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

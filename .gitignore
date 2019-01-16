@@ -6,3 +6,4 @@ Debug/
 packages/
 RuntimeComponentCWrapper/Generated Files/
 UwpCSharpApp/obj/
+RuntimeComponentCWrapper/RuntimeComponentCWrapper.vcxproj.user

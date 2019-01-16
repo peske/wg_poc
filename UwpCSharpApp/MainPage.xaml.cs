@@ -22,9 +22,13 @@ namespace UwpCSharpApp
             int a = int.Parse(Addend1.Text);
             int b = int.Parse(Addend2.Text);
 
-            TestCWrapper cWrapper = new TestCWrapper();
+            // We can use either instance version, or static version
 
-            int c = cWrapper.Add(a, b);
+            //TestCWrapper cWrapper = new TestCWrapper();
+
+            //int c = cWrapper.Add(a, b);
+
+            int c = TestCWrapperStatic.Add(a, b);
 
             Result.Text = $"{a} + {b} = {c}";
         }

@@ -13,10 +13,12 @@
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
     <ClCompile Include="TestCWrapper.cpp" />
+    <ClCompile Include="TestCWrapperStatic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="TestCWrapper.h" />
+    <ClInclude Include="TestCWrapperStatic.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="RuntimeComponentCWrapper.def" />
@@ -27,5 +29,6 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="TestCWrapper.idl" />
+    <Midl Include="TestCWrapperStatic.idl" />
   </ItemGroup>
 </Project>
