@@ -1,0 +1,9 @@
+namespace RuntimeComponentCWrapper
+{
+    [default_interface]
+    runtimeclass TestCWrapper
+    {
+		TestCWrapper();
+        Int32 Add(Int32 a, Int32 b);
+    }
+}

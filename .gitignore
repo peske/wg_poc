@@ -3,3 +3,6 @@ wg_poc.sln.DotSettings.user
 PureC/Debug/
 CppWinRt/Debug/
 Debug/
+packages/
+RuntimeComponentCWrapper/Generated Files/
+UwpCSharpApp/obj/
